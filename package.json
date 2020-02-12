@@ -1,0 +1,17 @@
+{
+  "name": "Pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Error: no test specified\" && exit 1",
+    "start": "parcel dev/index.pug --open",
+    "build": "parcel build dev/index.pug -d docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "licence": "ISC",
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
+}

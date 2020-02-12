@@ -1,0 +1,7 @@
+- var navLinks = [{link: "#", name: "11"},{link: "#", name: "2"},{link: "#", name: "3"},{link: "#", name: "4"}]
+header
+    .header
+        ul.nav
+            for i in navLinks
+                li
+                    a(href=i.link).nav-link=i.name

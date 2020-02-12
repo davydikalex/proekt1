@@ -1,0 +1,13 @@
+extends layout/noheader
+block variables
+    - var pagetitle = 'page'
+block content
+    h1.title Pug - node template
+    #container.col
+        if youAreUsingPug
+            p You are amazing
+        else
+            p Get on it
+        p.
+            pug hello
+            1234pug
