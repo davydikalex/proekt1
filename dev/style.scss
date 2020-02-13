@@ -1,0 +1,7 @@
+$abc: red;
+p {
+  color: $abc;
+}
+
+@import "layout/style1.scss";
+

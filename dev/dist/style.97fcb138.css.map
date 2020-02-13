@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss","layout\\style1.scss"],"names":[],"mappings":"AACA;EACE,OAFI;;;ACCN;EACE,OAFK","file":"style.97fcb138.css","sourceRoot":"..","sourcesContent":["$abc: red;\r\np {\r\n  color: $abc;\r\n}\r\n\r\n@import \"layout/style1.scss\";\r\n\r\n","$gore: yellow;\r\nh1{\r\n  color: $gore;\r\n}"]}
